@@ -1,0 +1,23 @@
+.editor {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .editor textarea {
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #1e1e1e;
+  }
+
+  #EditorTextArea{
+    text-align: left;
+  }
+
+  .Codemirror{
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 20px;
+  }
